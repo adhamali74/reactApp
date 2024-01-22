@@ -1,10 +1,10 @@
 type headerFormate ={
-    text: String;
+    text?: String;
   }
 
 function Header(params:headerFormate){
     return(
-      <h2>{params.text}</h2>
+      <h1>{params.text}</h1>
     )
   }
   export default Header;

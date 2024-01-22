@@ -3,7 +3,7 @@ import List from "./Lists";
 function Description(){
     return(
       <>
-      <h3>Description!!</h3>
+      <h2>Description!!</h2>
       <List lists='pop,lol'></List>
       </>
     )
